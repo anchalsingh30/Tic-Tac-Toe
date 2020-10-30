@@ -1,0 +1,44 @@
+
+.col {
+  padding: 0px;
+  background: #6c757d;
+  border: 1px solid rgb(248, 244, 244);
+  height: 72px;
+  cursor: pointer;
+}
+
+.assign {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.assign-x {
+  color: #1d2124;
+}
+
+.assign-o {
+  color: #f8f9fa;
+}
+
+.alert {
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+}
+
+.board {
+  margin: 0 33%;
+  max-width: 190px;
+}
+
+.container {
+  text-align: center;
+}
+
+#container {
+  width: 600px;
+  height: 500px;
+}
