@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-var symbolsMap = {
-  2: ["marking", "32"],
-  0: ["marking marking-x", 9587],
-  1: ["marking marking-o", 9711]
+var symbolsColumnMap = {
+  2: ["marking"],
+  0: ["marking marking-x", 'X'],
+  1: ["marking marking-o", 'O']
 };
 
 class Column extends React.Component {
@@ -25,8 +25,8 @@ class Column extends React.Component {
   render() {
     return (
       <div className="col" onClick={this.checkNextMove}>
-        <div class={symbolsMap[this.props.marking][0]} id={this.props.id}>
-          {String.fromCharCode(symbolsMap[this.props.marking][1])}
+        <div class={symbolsColumnMap[this.props.marking][0]} id={this.props.id}>
+          {symbolsColumnMap[this.props.marking][1]}
         </div>
       </div>
     );
