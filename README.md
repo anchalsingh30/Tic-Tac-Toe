@@ -3,12 +3,14 @@ Created a Multiplayer Game Tic-Tac-Toe using React js and Node js, CSS.
 Follow this link for working multiplayer game: https://tic-tac-toe-190e9.web.app/
 
 Steps to run commands before deploying project on firebase:
+
     - brew install yarn
     - rm -rf node_modules
     - rm -rf build 
     - yarn build
 
 Steps to deploy the project on Firebase:
+
     - npm install -g firebase-tools
     - firebase login
     - firebase init
@@ -25,5 +27,6 @@ Steps to deploy the project on Firebase:
     - -rf .firebaserc
     - rm firebase.json
     - firebase deploy
-    - Hosting URL: https://tic-tac-toe-190e9.web.app
+    
+   Hosting URL: https://tic-tac-toe-190e9.web.app
 
